@@ -51,6 +51,10 @@ body{
     background-color: rgba(255, 255, 255, 0.4);
 }
 
+#qrText:active, #qrText:focus{
+    border: 1px solid var(--main-color);
+}
+
 .container button{
     height: 50px;
     width: 100%;
