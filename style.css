@@ -131,6 +131,13 @@ footer{
     left: 44%;
     top: 80%;
     font-size: 1.2rem;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--main-color);
 }
 
 
