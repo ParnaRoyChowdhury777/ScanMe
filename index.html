@@ -6,6 +6,7 @@
     <title>ScanMe</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="qr-code.ico">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
@@ -16,8 +17,12 @@
             <img src="" id="qrImage">
         </div>
         <button onclick="generateQR()">Generate QR</button>
-        <button type="reset" onclick="reset()">RESET</button>
+        <button type="reset" onclick="reset()" id="reset">RESET</button>
     </div>
+
+    <footer>
+        <div class="footer-text">Made with <i class='bx bxs-heart' style='color:#f90202'></i> by <a href="https://github.com/ParnaRoyChowdhury777" target="_blank">PRC</a></div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
