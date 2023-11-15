@@ -140,4 +140,12 @@ footer a{
     color: var(--main-color);
 }
 
+@media(max-width : 768px){
+    footer{
+        position: fixed;
+        left: 31%;
+        top: 86%;
+    }
+}
+
 
