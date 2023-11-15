@@ -132,11 +132,14 @@ body{
 
 footer{
     position: fixed;
-    left: 44%;
-    top: 80%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     font-size: 1.2rem;
     color: var(--main-color);
     font-weight: 600;
+    position: fixed;
+    text-align: center;
 }
 
 footer a{
