@@ -148,11 +148,6 @@ footer a{
 }
 
 @media(max-width : 768px){
-    footer{
-        position: fixed;
-        left: 31%;
-        top: 86%;
-    }
 
     .container{
         width: 22rem;
