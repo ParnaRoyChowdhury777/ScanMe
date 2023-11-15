@@ -14,3 +14,9 @@ function generateQR(){
     }
     
 }
+
+function reset(){
+    qrText.value = "";
+    qrImage.src = "";
+    imgBox.style.display = "none";
+}
