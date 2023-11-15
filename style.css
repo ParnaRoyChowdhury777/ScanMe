@@ -73,5 +73,44 @@ body{
     color: white;
 }
 
+.imgBox{
+    width: 9.5rem;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+.imgBox image{
+    width: 100%;
+    padding: 10px;
+}
+
+.show-img{
+    max-height: 9.5rem;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+}
+
+.error{
+    animation: shake 0.1s linear 10;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
 
 
